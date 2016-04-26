@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+  <title>FIND YOUR VIBE</title>
+  <style>
+  	
+    body {
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: avenir;
+      font-style: italic;
+      background: rgb(50,50,50);
+    }
+    p {
+      font-size: 70px;
+      margin-bottom: 0;
+    }
+    p1 a{
+    font-size: 17px;
+    color: white;
+    float: left;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 550px;
+    }
+    p1 a:hover {
+    text-decoration: underline;
+	}
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: rgb(0,146,0);
+      color: white;
+    }
+    li {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+   	 overflow: hidden;
+   	 background-color: black;
+   	}
+   	ul {
+      list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+   		
+   	}
+
+    li {
+    float: left;
+    }
+/* drop down feature of navigation bar */
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover, .dropbtn:hover .dropbtn {
+    background-color: rgb(0,146,0);
+} 
+
+li.dropbtn {
+	display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgb(199,255,200)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#artists:hover {opacity: 0.35;}
+    li2 {
+    position: absolute;
+    left: 50px;
+    top: 600px;
+    }
+    li3 {
+    position: absolute;
+    left: 175px;
+    top: 600px;
+    }
+    li4 {
+    position: absolute;
+    left: 300px;
+    top: 600px;
+    }
+    li5 {
+     position: absolute; 
+     right: 50px;
+     top:625px;
+    }
+  </style>
+</head>
+<body>
+	<header>
+	
+<ul>
+  <div class="container">
+    <img src="head_image.jpg" style="width: 100%;z-index: 0;">
+    <div class="bottomleft">
+    <li><a href="#">HOME</a></li>
+            <li class="dropdown">
+    <a href="#" class="dropbtn">MUSIC</a>
+      <div class="dropdown-content">
+      <a href="#">Alternative</a>
+      <a href="#">R&B</a>
+      <a href="#">Rock</a>
+      <a href="#">See all genres</a>
+      </div>
+          <li><a href="#">FESTIVALS</a></li>
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">ABOUT</a></li>
+    </div>
+  </div>
+</ul>	
+   
+	</header>
+ 	 
+ 	 <p>FIND YOUR VIBE</p>
+ 	 <input type="email" placeholder="Browse">
+  	 <input type="submit">
+  	 <p>
+  	 <p1><a href="#"> Recently Searched Artists</a></p1>
+  	 </p>
+
+  	<p>
+  	 <li2><b><img id= "artists" src="artist1.png" style="width:100px;height:100px;"><b></li2>
+    <li3><b><img id="artists" src="artist2.png" style="width:100px;height:100px;"><b></li3>
+    <li4><b><img id="artists" src="artist3.png" style="width:100px;height:100px;"><b></li4>
+    <li5><b><img id="artists" src="social.jpg" style="width:75px;height:75px;"><b></li4>
+    </a>
+    </p>
+
