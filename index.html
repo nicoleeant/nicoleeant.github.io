@@ -1,43 +1,25 @@
 <!DOCTYPE html>
 <head>
-  <title>FIND YOUR VIBE</title>
-  <style>
-    
-    body {
-      text-align: center;
+<style>
+ body{
+  background-color: black;
+    text-align: center;
       background-size: cover;
       background-position: center;
       color: white;
-      font-family: avenir;
-      font-style: italic;
-      background: rgb(50,50,50);
-    }
-    p {
+      font-family: arial;
+      letter-spacing: 3px;
+      font-size: 10px;
+  background: url(nightsky.png) no-repeat top center scroll; 
+  background-size: 100% 200%;
+
+  
+ }
+  p {
       font-size: 70px;
       margin-bottom: 0;
     }
-    p1 a{
-    font-size: 17px;
-    color: white;
-    float: left;
-    text-decoration: none;
-    display: inline-block;
-    position: absolute;
-    left: 50px;
-    bottom: 175px;
-    }
-    p1 a:hover {
-    text-decoration: underline;
-  }
-    input {
-      border: 0;
-      padding: 10px;
-      font-size: 18px;
-    }
-    input[type="submit"] {
-      background: rgb(0,146,0);
-      color: white;
-    }
+    
     li {
      list-style-type: none;
      margin: 0;
@@ -50,10 +32,24 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
-      
+    background-color: black;  
     }
+  input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+      font-family: arial;
+      font-size:10px;
+      letter-spacing: 3px;
 
+    }
+    input[type="submit"] {
+      background: rgb(0,146,0);
+      color: white;
+      font-family: arial;
+      font-size:10px;
+      letter-spacing: 3px;
+    }
     li {
     float: left;
     }
@@ -67,8 +63,8 @@ li a, .dropbtn {
 
 }
 
-li a:hover, .dropbtn:hover .dropbtn {
-    background-color: rgb(0,146,0);
+li a:hover, .dropbtn:hover .dropbtn {opacity: 0.35;
+  font-color: green;
 } 
 
 li.dropbtn {
@@ -96,31 +92,12 @@ li.dropbtn {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 #artists:hover {opacity: 0.35;}
-    li2 {
-    position: absolute;
-    left: 50px;
-    bottom: 35px;
-    }
-    li3 {
-    position: absolute;
-    left: 175px;
-    bottom: 35px;
-    }
-    li4 {
-    position: absolute;
-    left: 300px;
-    bottom: 35px;
-    }
-  </style>
+</style>
 </head>
 <body>
-  <header>
-  
 <ul>
-  <div class="container">
-    <img src="head_image.jpg" style="width: 100%;z-index: 0;">
+
     <div class="bottomleft">
     <li><a href="#">HOME</a></li>
             <li class="dropdown">
@@ -141,21 +118,10 @@ li.dropbtn {
     </div>
   </div>
 </ul> 
-   
-  </header>
-   
-   <p><img src="fyv.png" style="width:175px;height:150px;"></p>
-   <input type="email" placeholder="Browse: artists, genres...">
-     <input type="submit">
+  <p><img src="fyv2.png" style="width:200px;height:200px;"></p>
+   <input type="email" placeholder="Browse: artists, genres..." style="width: 190px">
+     <input type="submit" id="artists">
+    
      <p>
-     <p1><a href="#"> Recently Searched Artists</a></p1>
-     </p>
-
-    <p>
-     <li2><img id= "artists" src="artist1.png" style="width:100px;height:100px;"></li2>
-    <li3><img id="artists" src="artist2.png" style="width:100px;height:100px;"></li3>
-    <li4><img id="artists" src="artist3.png" style="width:100px;height:100px;"></li4>
-   
-    </a>
-    </p>
+</body>
 </html>
